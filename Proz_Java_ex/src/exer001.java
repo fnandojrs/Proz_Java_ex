@@ -15,14 +15,13 @@ public class exer001 {
 		System.out.print("Digite a idade em dias: ");
 		int dias = scanner.nextInt();
 
-		int idadeEmDias = calcularIdadeEmDias(anos, meses, dias);
+		int idadeEmDias = (anos * 365) + (meses * 30) + dias;
 
 		System.out.println("A idade em dias é: " + idadeEmDias + " dias");
+		scanner.close();
 	}
+	
 
-	public static int calcularIdadeEmDias(int anos, int meses, int dias) {
-		int idadeEmDias = (anos * 365) + (meses * 30) + dias;
-		return idadeEmDias;
-	}
+	
 
 }

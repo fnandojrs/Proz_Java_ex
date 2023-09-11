@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class exer002 {
 
 	public static void main(String[] args) {
